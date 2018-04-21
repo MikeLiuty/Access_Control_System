@@ -1,0 +1,189 @@
+.navbutton {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  font-size: 30px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 15px #999;
+}
+
+.navbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#greeting {
+  width: 50%;
+  display: inline;
+}
+
+#topnav {
+  background-color: "#F58025";
+}
+
+#nav-topheader{
+  background-color: rgb(245,128,37);
+}
+
+#mainbrand{
+  color: white;
+}
+
+#navbtn{
+  color: white;
+}
+
+#mainbrand:hover,
+#navbtn:hover,
+#navbtn:focus, 
+#mainbrand:focus {
+  color: lightgrey;
+}
+
+.navbar-fixed-top {
+  border: 0;
+}
+
+.sidebar {
+  background-color: #f5f5f5;
+}
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.placeholders h4 {
+  margin-bottom: 0;
+}
+
+.placeholder {
+  margin-bottom: 20px;
+}
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.modal-footer #confirm{
+  margin-top: 10px;
+}
+
+#divtable{
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+#backbtn{
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+  font-size: 110%;
+}
+
+#backbtn:active {
+  background-color: #3e8e41;
+}
+
+#backbtn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#backbtn span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+#backbtn:hover span {
+  padding-left: 25px;
+}
+
+#backbtn:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+#btnboxdiv{
+  width: 100%;
+}
+
+#btnbox{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sernavgreeting{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#dashtitle{
+  margin-top: 8%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.bartable{
+  margin-left: 0;
+  margin-top: 3%; 
+}
+
+#fullbtn{
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 6px #999;
+}
+
+#fullbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(5px);
+}
+
+#serdata_table{
+  border-width:1px; 
+  border-style:solid;
+  border-color:grey; 
+  width: 100% !important;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+  
